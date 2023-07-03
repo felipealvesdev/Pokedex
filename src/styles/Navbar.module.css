@@ -1,0 +1,37 @@
+.navbar{
+    z-index: 5;
+    position: fixed;
+    width: 100vw;
+    min-height: 60px;
+    background-color: #aaa;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li{
+    padding-right: 20px;
+}
+
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    transition: 200ms all ease-in-out;
+    border-bottom: 1px transparent solid;
+}
+.menu li a:hover{
+    color: #e03f5c;
+    border-bottom: 3px solid #fff;
+}
+
+.poke{
+    color: #e03f5c;
+}

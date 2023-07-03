@@ -1,0 +1,72 @@
+.cardContainer{
+    width: auto;
+    height: 300px;
+    background-color: #e03f5c;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #aaa;
+    box-shadow: 0px 0px 20px 0px;
+    transition: all 200ms ease-in-out;
+    border-radius: 30px;
+}
+
+.cardContainer:hover{
+    scale: 1.1;
+}
+
+.imgContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 28px;
+    border-style: none;
+}
+
+
+.descriptionContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemonName{
+    padding: 15px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.pokeLink{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    transition: 300ms all ease-in-out;
+    border-bottom: 1px transparent solid;
+    background-color: #aaa;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.pokeLink:hover{
+    background-color: #fff;
+    color: #e03f5c;
+}
+
+.pokeLink span{
+    transition: 100ms all ease-in-out;
+    border-bottom: 1px transparent solid;
+}
+
+.pokeLink span span{
+    text-transform: capitalize;
+}
+
+.pokeLink span:hover{
+    border-bottom: 1px #e03f5c solid;
+}

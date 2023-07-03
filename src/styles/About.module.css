@@ -1,0 +1,19 @@
+.aboutContainer{
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutContainer h1{
+    margin-bottom: 40px;
+}
+
+.aboutContainer p{
+    margin-bottom: 5px;
+}
+
+.aboutContainer h4{
+    margin: 20px 0px;
+}
